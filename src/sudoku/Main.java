@@ -21,7 +21,7 @@ public class Main {
         Scanner teclado= new Scanner(System.in);
         Sudoku s=new Sudoku();
         
-        
+        System.out.println("");
         
         int respuesta=0;
         
