@@ -50,9 +50,7 @@ public class Main {
                 System.out.println("------------------------------------------------------------------------------------------------");
                 respuesta=teclado.nextInt();
 
-                /**
-                 * Inicio el sudoku
-                 */
+                
                 if(respuesta==1)
                 {
                     s.inicializar();
@@ -74,9 +72,7 @@ public class Main {
                     s.modificarElemento(fila, columna, elemento);
                 }
 
-                /**
-                 * Pongo un elemento vacío
-                 */
+                
                 else if(respuesta==3)
                 {
                     System.out.println("Dime las coordenadas de la casilla que quieres vaciar:");
@@ -88,9 +84,7 @@ public class Main {
                     s.vaciarElemento(fila, columna);
                 }
 
-                /**
-                 * Muestro el sudoku por pantalla
-                 */
+               
                 else if(respuesta==4)
                 {
                     System.out.println(s.toString());
