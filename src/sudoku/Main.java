@@ -37,15 +37,10 @@ public class Main {
             do
             {
                 System.out.println("------------------------------------------------------------------------------------------------");
-                System.out.println("1. Iniciar/Reiniciar sudoku → Iniciará o reiniciará el sudoku con el que se está \n" +
-                "jugando.\n\n" +
-                "2. Realizar movimiento → Pedirá las coordenadas de la casilla en la que se \n\n" +
-                "quiere poner un número y en el caso de que el número sea válido para esa\n" +
-                "casilla se guardará, también habrá que comprobar que en esa casilla no\n" +
-                "haya ningún número previamente. \n\n" +
-                "3. Vaciar casilla → Pedirá las coordenadas de la casilla de la que se quiere\n" +
-                "borrar un número ya existente. \n\n" +
-                "4. Mostrar sudoku → Mostrará el sudoku por la pantalla.\n\n" +
+                System.out.println("1. Iniciar/Reiniciar sudoku\n" +
+                "2. Realizar movimiento\n" +
+                "3. Vaciar casilla \n" +
+                "4. Mostrar sudoku\n" +
                 "5. Terminar → Termina la partida.");
                 System.out.println("------------------------------------------------------------------------------------------------");
                 respuesta=teclado.nextInt();
