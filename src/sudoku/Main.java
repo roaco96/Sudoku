@@ -7,8 +7,11 @@ package sudoku;
 
 import java.util.Scanner;
 /**
- *
+ * Entornos de desarrollo
  * @author Manuel Muñoz Rodríguez
+ * Curso: 2016-2017
+ * Poniente Formación
+ * Main del proyecto
  */
 public class Main {
 

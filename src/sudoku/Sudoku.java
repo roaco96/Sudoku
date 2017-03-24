@@ -11,6 +11,7 @@ import java.util.Random;
 /**
  *
  * @author Manuel Muñoz Rodríguez
+ * Clase sudoku con los métodos necesarios para su funcionamiento
  */
 public class Sudoku 
 {
